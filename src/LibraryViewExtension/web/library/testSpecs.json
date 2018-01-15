@@ -1,0 +1,269 @@
+{
+  "sections": [
+    {
+      "text": "default",
+      "iconUrl": "",
+      "elementType": "section",
+      "showHeader": false,
+      "include": [ ],
+      "childElements": [
+        {
+          "text": "Dictionary",
+          "iconUrl": "",
+          "elementType": "category",
+          "include": [
+            {
+              "path": "Builtin.DesignScript.Builtin.Dictionary.ByKeysValues"
+            },
+            {
+              "path": "Builtin.DesignScript.Builtin.Dictionary.Components"
+            },
+            {
+              "path": "Builtin.DesignScript.Builtin.Dictionary.RemoveKeys"
+            },
+            {
+              "path": "Builtin.DesignScript.Builtin.Dictionary.SetValueAtKeys"
+            },
+            {
+              "path": "Builtin.DesignScript.Builtin.Dictionary.ValueAtKey"
+            },
+            {
+              "path": "Builtin.DesignScript.Builtin.Dictionary.Count"
+            },
+            {
+              "path": "Builtin.DesignScript.Builtin.Dictionary.Keys"
+            },
+            {
+              "path": "Builtin.DesignScript.Builtin.Dictionary.Values"
+            }
+          ],
+          "childElements": [ ]
+        },
+        {
+          "text": "Input",
+          "iconUrl": "./dist/resources/Category.Input.svg",
+          "elementType": "category",
+          "include": [ ],
+          "childElements": [
+            {
+              "text": "DateTime",
+              "iconUrl": "",
+              "elementType": "group",
+              "include": [
+                {
+                  "path": "Core.Input.Date Time"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.MinValue"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.MaxValue"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.Now"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.Today"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.ByDate"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.ByDateAndTime"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.SubtractTimeSpan"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.AddTimeSpan"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.DaysInMonth"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.IsDaylightSavingsTime"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.IsLeapYear"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.FromString"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.Date"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.Components"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.DayOfWeek"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.DayOfYear"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.TimeOfDay"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DateTime.Format"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.DayOfWeek",
+                  "iconUrl": "./dist/resources/DSCore.DayOfWeek.png"
+                }
+              ],
+              "childElements": [ ]
+            },
+            {
+              "text": "Location",
+              "iconUrl": "",
+              "elementType": "group",
+              "include": [
+                {
+                  "path": "DynamoUnits.DynamoUnits.Location.Name"
+                },
+                {
+                  "path": "DynamoUnits.DynamoUnits.Location.Latitude"
+                },
+                {
+                  "path": "DynamoUnits.DynamoUnits.Location.Longitude"
+                },
+                {
+                  "path": "DynamoUnits.DynamoUnits.Location.ByLatitudeAndLongitude"
+                }
+              ],
+              "childElements": [ ]
+            },
+            {
+              "text": "Basic",
+              "iconUrl": "",
+              "elementType": "group",
+              "include": [
+                {
+                  "path": "Core.Input.Boolean"
+                },
+                {
+                  "path": "Core.Input.Integer Slider"
+                },
+                {
+                  "path": "Core.Input.Number Slider"
+                },
+                {
+                  "path": "Core.Input.String"
+                },
+                {
+                  "path": "Core.Input.Number"
+                },
+                {
+                  "path": "Core.Input.Code Block"
+                },
+                {
+                  "path": "Core.Input.Input"
+                },
+                {
+                  "path": "Core.Input.Output"
+                }
+              ],
+              "childElements": [ ]
+            },
+            {
+              "text": "TimeSpan",
+              "iconUrl": "",
+              "elementType": "group",
+              "include": [
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.ByDateDifference"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.Zero"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.MaxValue"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.MinValue"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.Create"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.Scale"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.Negate"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.Add"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.Subtract"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.FromString"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.Components"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.TotalDays"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.TotalHours"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.TotalMinutes"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.TotalSeconds"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.TimeSpan.TotalMilliseconds"
+                }
+              ],
+              "childElements": [ ]
+            },
+            {
+              "text": "Object",
+              "iconUrl": "",
+              "elementType": "group",
+              "include": [
+                {
+                  "path": "DSCoreNodes.DSCore.Object.IsNull"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.Object.Identity"
+                },
+                {
+                  "path": "DSCoreNodes.DSCore.Object.Type"
+                }
+              ],
+              "childElements": [ ]
+            }
+          ]
+        },
+      ]
+    },
+    {
+      "text": "Miscellaneous",
+      "elementType": "section",
+      "showHeader": true,
+      "include": [ ],
+      "childElements": [ ]
+    },
+    {
+      "text": "Packages",
+      "iconUrl": "./dist/resources/plus-symbol.svg",
+      "elementType": "section",
+      "showHeader": true,
+      "include": [
+        {
+          "path": "pkg://"
+        },
+        {
+          "path": "dyf://"
+        }
+      ],
+      "childElements": [ ]
+    }
+  ]
+}
