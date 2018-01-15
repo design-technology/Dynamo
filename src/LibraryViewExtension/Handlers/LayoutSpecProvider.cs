@@ -37,6 +37,23 @@ namespace Dynamo.LibraryUI.Handlers
             this.customization.SpecificationUpdated += OnSpecificationUpdate;
         }
 
+        /// <summary>
+        /// Creates the LayoutSpecProvider
+        /// </summary>
+        /// <param name="jsonPath">The filepath to the JSON file that contains the library spec.</param>
+        public LayoutSpecProvider(ILibraryViewCustomization customization, string jsonPath) : base(false)
+        {
+            // safety checks
+            if (string.IsNullOrWhiteSpace(jsonPath) || !File.Exists(jsonPath)) throw new Exception("Cannot locate specified library JSON file.");
+
+            //Get the spec from the file
+            var spec = LayoutSpecification.FromJSONString(File.ReadAllText(jsonPath));
+
+            customization.AddSections(spec.sections);
+            this.customization = customization;
+            this.customization.SpecificationUpdated += OnSpecificationUpdate;
+        }
+
         private void OnSpecificationUpdate(object sender, EventArgs e)
         {
             DisposeResourceStream();

@@ -373,7 +373,7 @@ namespace Dynamo.LibraryUI
             resourceFactory.RegisterProvider("/loadedTypes", new NodeItemDataProvider(model.SearchModel));
 
             //Register provider for layout spec
-            resourceFactory.RegisterProvider("/layoutSpecs", new LayoutSpecProvider(customization, "Dynamo.LibraryUI.web.library.layoutSpecs.json"));
+            resourceFactory.RegisterProvider("/layoutSpecs", new LayoutSpecProvider(customization, @"C:\Users\radug\Documents\GitHub\DynamoEDU\src\LibraryViewExtension\web\library\testSpecs.json"));
 
             //Setup the event observer for NodeSearchModel to update customization/spec provider.
             observer = SetupSearchModelEventsObserver(model.SearchModel, this, customization);
